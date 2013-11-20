@@ -18,7 +18,6 @@ catkin_package(
     CATKIN_DEPENDS pr2_ethercat
 )
 
-
 install(DIRECTORY launch/
    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/launch)
 
