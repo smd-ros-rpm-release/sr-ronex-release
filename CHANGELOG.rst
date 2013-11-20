@@ -2,6 +2,10 @@
 Changelog for package sr_ronex_drivers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.9.4 (2013-11-20)
+------------------
+* Add Beckhoff CU1128 bridge to the plugin list
+
 0.9.3 (2013-09-25)
 ------------------
 
