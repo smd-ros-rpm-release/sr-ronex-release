@@ -1,8 +1,8 @@
 <package>
-  <name>sr_ronex_launch</name>
+  <name>sr_ronex_test</name>
   <version>0.9.4</version>
-  <description>Contains the main launch files for the RoNeX system.</description>
-  <maintainer email="software@shadowrobot.com">Shadow Robot's software team</maintainer>
+  <description>contains software tests that require RoNeX hardware.</description>
+  <maintainer email="software@shadowrobot.com">Manos Nikolaidis</maintainer>
 
   <license>LGPLv3</license>
 
@@ -10,20 +10,20 @@
   <url type="repository">https://github.com/shadow-robot/sr-ronex</url>
   <url type="bugtracker">https://github.com/shadow-robot/sr-ronex/issues</url>
 
-  <author>Ugo Cupcic</author>
-  <author>Toni Oliver</author>
-  <author>Mark Pitchless</author>
+  <author>Manos Nikolaidis</author>
 
   <!-- Dependencies which this package needs to build itself. -->
   <buildtool_depend>catkin</buildtool_depend>
 
   <!-- Dependencies needed to compile this package. -->
-  <build_depend>pr2_ethercat</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>rostest</build_depend>
 
   <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>rospy</run_depend>
+  <run_depend>rostest</run_depend>
   <run_depend>pr2_ethercat</run_depend>
 
   <!-- Dependencies needed only for running tests. -->
-  <!-- <test_depend>pr2_ethercat</test_depend> -->
-
+  <test_depend>rosunit</test_depend>
 </package>
