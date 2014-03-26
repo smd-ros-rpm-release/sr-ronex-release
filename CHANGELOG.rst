@@ -2,6 +2,11 @@
 Changelog for package sr_ronex_controllers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.9.6 (2014-03-26)
+------------------
+
+* Call catkin_package in sr_ronex_test by default
+
 0.9.5 (2013-12-18)
 ------------------
 
