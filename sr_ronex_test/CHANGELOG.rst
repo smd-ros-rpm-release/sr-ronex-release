@@ -2,10 +2,17 @@
 Changelog for package sr_ronex_controllers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.9.6 (2014-03-26)
+0.9.8 (2014-05-15)
+------------------
+* Update CHANGELOG.rst
+* Contributors: Manos Nikolaidis
+
+0.9.7 (2014-05-15)
 ------------------
 
-* Call catkin_package in sr_ronex_test by default
+0.9.6 (2014-03-26)
+------------------
+* call catkin_package() despite RONEX_TEST_WITH_HARDWARE
 
 0.9.5 (2013-12-18)
 ------------------
