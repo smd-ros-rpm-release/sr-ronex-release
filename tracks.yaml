@@ -10,7 +10,7 @@ tracks:
       -i :{release_inc}
     devel_branch: hydro-devel
     last_version: 0.9.9
-    name: sr_ronex
+    name: sr-ronex
     patches: null
     release_inc: '0'
     release_repo_url: null
