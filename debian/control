@@ -1,0 +1,12 @@
+Source: ros-hydro-sr-ronex-test
+Section: misc
+Priority: extra
+Maintainer: Manos Nikolaidis <software@shadowrobot.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-rospy, ros-hydro-rostest, ros-hydro-rosunit
+Homepage: http://www.shadowrobot.com/products/ronex
+Standards-Version: 3.9.2
+
+Package: ros-hydro-sr-ronex-test
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-ros-ethercat, ros-hydro-rospy, ros-hydro-rostest
+Description: contains software tests that require RoNeX hardware.
