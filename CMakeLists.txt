@@ -10,7 +10,11 @@ find_package(catkin REQUIRED COMPONENTS roscpp rostest sr_ronex_hardware_interfa
 include_directories(include ${catkin_INCLUDE_DIRS})
 
 #common commands for building c++ executables and libraries
-add_library(sr_ronex_transmissions src/ronex_transmission.cpp src/mapping/general_io/analogue_to_position.cpp src/mapping/general_io/analogue_to_effort.cpp src/mapping/general_io/command_to_pwm.cpp)
+add_library(sr_ronex_transmissions
+    src/ronex_transmission.cpp
+    src/mapping/general_io/analogue_to_position.cpp
+    src/mapping/general_io/analogue_to_effort.cpp
+    src/mapping/general_io/command_to_pwm.cpp)
 
 # catkin_package parameters: http://ros.org/doc/groovy/api/catkin/html/dev_guide/generated_cmake_api.html#catkin-package
 catkin_package(
@@ -19,16 +23,15 @@ catkin_package(
     LIBRARIES sr_ronex_transmissions
 )
 
-if(COMMAND add_rostest_gtest)
-  add_rostest_gtest(test_ronex_transmission test/test_ronex_transmission.test test/test_ronex_transmission.cpp)
-  target_link_libraries(test_ronex_transmission ${catkin_LIBRARIES} ${GTEST_LIBRARIES})
-  add_dependencies(test_ronex_transmission sr_ronex_drivers)
-endif(COMMAND add_rostest_gtest)
+#if(COMMAND add_rostest_gtest)
+#  add_rostest_gtest(test_ronex_transmission test/test_ronex_transmission.test test/test_ronex_transmission.cpp)
+#  target_link_libraries(test_ronex_transmission ${catkin_LIBRARIES} ${GTEST_LIBRARIES})
+#  add_dependencies(test_ronex_transmission sr_ronex_drivers)
+#endif(COMMAND add_rostest_gtest)
 
 install(TARGETS sr_ronex_transmissions
    ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-   RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION})
+   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION})
 
 install(DIRECTORY include/${PROJECT_NAME}/
    DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION})
