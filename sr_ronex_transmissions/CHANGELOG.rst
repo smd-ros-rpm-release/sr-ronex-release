@@ -2,17 +2,18 @@
 Changelog for package sr_ronex_transmissions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.9.14 (2014-06-13)
+-------------------
+
 0.9.13 (2014-05-23)
 -------------------
-* 0.9.12
-* changelogs
-* Contributors: shadowmanos
 
 0.9.12 (2014-05-23)
 -------------------
 
-0.9.11 (2014-05-19)
+0.9.11 (2014-05-23)
 -------------------
+
 0.9.10 (2014-05-19)
 -------------------
 
@@ -21,8 +22,6 @@ Changelog for package sr_ronex_transmissions
 
 0.9.8 (2014-05-15)
 ------------------
-* Update CHANGELOG.rst
-* Contributors: Manos Nikolaidis
 
 0.9.7 (2014-05-15)
 ------------------
@@ -35,7 +34,6 @@ Changelog for package sr_ronex_transmissions
 
 0.9.4 (2013-11-20)
 ------------------
-* Fix name of lib sr_ronex_transmission.
 
 0.9.3 (2013-09-25)
 ------------------
@@ -43,4 +41,3 @@ Changelog for package sr_ronex_transmissions
 0.9.2 (2013-09-24)
 ------------------
 * first public release for Hydro
-
