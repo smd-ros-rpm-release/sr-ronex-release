@@ -1,0 +1,12 @@
+Source: ros-hydro-sr-ronex-hardware-interface
+Section: misc
+Priority: extra
+Maintainer: Shadow Robot's software team <software@shadowrobot.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-ros-ethercat-hardware, ros-hydro-ros-ethercat-model, ros-hydro-roscpp, ros-hydro-sr-ronex-external-protocol
+Homepage: http://www.shadowrobot.com/products/ronex
+Standards-Version: 3.9.2
+
+Package: ros-hydro-sr-ronex-hardware-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-ros-ethercat-hardware, ros-hydro-ros-ethercat-model, ros-hydro-roscpp, ros-hydro-sr-ronex-external-protocol
+Description: This package contains the definition of the CustomHW to be added to the ros_ethercat_model CustomHWMap for the RoNeX.
