@@ -1,3 +1,33 @@
+## sr_ronex (hydro) - 0.9.14-2
+
+The packages in the `sr_ronex` repository were released into the `hydro` distro by running `/usr/bin/bloom-release sr_ronex --track hydro --rosdistro hydro` on `Fri, 18 Jul 2014 18:56:37 -0000`
+
+These packages were released:
+- `sr_ronex`
+- `sr_ronex_controllers`
+- `sr_ronex_drivers`
+- `sr_ronex_examples`
+- `sr_ronex_external_protocol`
+- `sr_ronex_hardware_interface`
+- `sr_ronex_launch`
+- `sr_ronex_msgs`
+- `sr_ronex_test`
+- `sr_ronex_transmissions`
+- `sr_ronex_utilities`
+
+Version of package(s) in repository `sr_ronex`:
+- rosdistro version: `0.9.14-0`
+- old version: `0.9.14-1`
+- new version: `0.9.14-2`
+
+Versions of tools used:
+- bloom version: `0.5.10`
+- catkin_pkg version: `0.2.3`
+- rosdep version: `0.10.28`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## sr_ronex (hydro) - 0.9.14-1
 
 The packages in the `sr_ronex` repository were released into the `hydro` distro by running `/usr/bin/bloom-release sr_ronex --track hydro --rosdistro hydro` on `Fri, 18 Jul 2014 18:49:08 -0000`
